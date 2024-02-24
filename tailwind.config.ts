@@ -10,7 +10,12 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+        //  max-width: 1440px
+      },
+    },
   },
   plugins: [],
 };
