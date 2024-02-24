@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.formkit-wrapper {
+  @apply grid space-y-6 text-[#7C7C7C];
+}
+.formkit-label {
+  @apply mb-2;
+}
+.formkit-inner {
+  @apply !mt-0;
+}
+.formkit-input {
+  @apply h-[46px] w-full rounded-md border-[1px] border-[#CFCFCF] px-4;
+}
+button.formkit-input {
+  @apply h-12 w-44 rounded-lg bg-[#645BBB] text-white;
+}
