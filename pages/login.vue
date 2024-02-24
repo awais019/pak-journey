@@ -1,12 +1,12 @@
 <template>
-  <div class="flex h-screen items-center justify-center bg-[#D1E3FA]">
+  <div class="flex h-screen items-center justify-center bg-[#EAE4F6]">
     <div class="h-auto w-[539px] rounded-2xl bg-white text-[#393C3E]">
       <div class="mx-8">
         <div class="mt-20 text-center">
           <p class="text-4xl font-normal">Login</p>
           <p class="text-base">
             Don’t have an account?
-            <a class="text-[#1E76E8] hover:cursor-pointer" href="/signup">
+            <a class="text-[#645BBB] hover:cursor-pointer" href="/signup">
               Sign up</a
             >
           </p>
@@ -29,14 +29,14 @@
         </div>
         <div class="flex justify-end">
           <a
-            class="mb-5 text-sm text-[#1E76E8] underline hover:cursor-pointer"
+            class="mb-5 text-sm text-[#645BBB] underline hover:cursor-pointer"
             href="/resetpassword"
           >
             Forget your password
           </a>
         </div>
         <div class="mb-20 mt-5 flex justify-center">
-          <button class="h-12 w-44 rounded-lg bg-[#1E76E8] text-white">
+          <button class="h-12 w-44 rounded-lg bg-[#645BBB] text-white">
             Login
           </button>
         </div>

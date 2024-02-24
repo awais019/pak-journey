@@ -1,12 +1,12 @@
 <template>
-  <div class="flex h-screen items-center justify-center bg-[#D1E3FA]">
+  <div class="flex h-screen items-center justify-center bg-[#EAE4F6]">
     <div class="h-auto w-[539px] rounded-2xl bg-white text-[#393C3E]">
       <div class="mx-10">
         <div class="mt-20 text-center">
           <p class="text-4xl font-normal">Create an account</p>
           <p class="text-base">
             Already have an account?<a
-              class="text-[#1E76E8] hover:cursor-pointer"
+              class="text-[#645BBB] hover:cursor-pointer"
               href="/signin"
             >
               Log in</a
@@ -53,7 +53,7 @@
             <span class="text-[#393C3E] underline"> Privacy Policy</span>
           </p>
           <div class="mb-14 mt-5 flex justify-center">
-            <button class="h-12 w-44 rounded-lg bg-[#1E76E8] text-white">
+            <button class="h-12 w-44 rounded-lg bg-[#645BBB] text-white">
               Create an account
             </button>
           </div>
