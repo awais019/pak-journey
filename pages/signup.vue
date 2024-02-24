@@ -64,7 +64,7 @@
 </template>
 
 <script lang="ts" setup>
-const { signUp, signIn } = useAuth();
+// const { signUp, signIn } = useAuth();
 
 // const first_name = ref("");
 // const last_name = ref("");
