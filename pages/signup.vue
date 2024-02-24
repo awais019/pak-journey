@@ -1,60 +1,59 @@
 <template>
-  <div class="flex justify-center items-center h-screen bg-[#D1E3FA]">
-    <div class="h-auto w-[539px] bg-white rounded-2xl text-[#393C3E]">
+  <div class="flex h-screen items-center justify-center bg-[#EAE4F6]">
+    <div class="h-auto w-[539px] rounded-2xl bg-white text-[#393C3E]">
       <div class="mx-10">
         <div class="mt-20 text-center">
           <p class="text-4xl font-normal">Create an account</p>
           <p class="text-base">
             Already have an account?<a
-              class="text-[#1E76E8] hover:cursor-pointer"
-              href="/signin">
+              class="text-[#645BBB] hover:cursor-pointer"
+              href="/signin"
+            >
               Log in</a
             >
           </p>
         </div>
-        <div class="grid mt-10 space-y-6 text-[#7C7C7C]">
+        <div class="mt-10 grid space-y-6 text-[#7C7C7C]">
           <div>
             <p class="mb-2">First name</p>
             <input
-              class="w-full h-[46px] rounded-md border-[1px] border-[#CFCFCF] px-4"
+              class="h-[46px] w-full rounded-md border-[1px] border-[#CFCFCF] px-4"
               id="name"
             />
           </div>
           <div>
             <p class="mb-2">Last name</p>
             <input
-              class="w-full h-[46px] rounded-md border-[1px] border-[#CFCFCF] px-4"
+              class="h-[46px] w-full rounded-md border-[1px] border-[#CFCFCF] px-4"
               id="name"
-              />
+            />
           </div>
           <div>
             <p class="mb-2">Email address</p>
             <input
-              class="w-full h-[46px] rounded-md border-[1px] border-[#CFCFCF] px-4"
+              class="h-[46px] w-full rounded-md border-[1px] border-[#CFCFCF] px-4"
               id="name"
-              />
+            />
           </div>
           <div>
             <p class="mb-2">Password</p>
             <input
-              class="w-full h-[46px] rounded-md border-[1px] border-[#CFCFCF] px-4"
+              class="h-[46px] w-full rounded-md border-[1px] border-[#CFCFCF] px-4"
               id="name"
-              />
+            />
           </div>
         </div>
         <div class="text-[#7C7C7C]">
           <p class="mb-5 text-sm">
             Use 8 or more characters with a mix of letters, numbers & symbols
           </p>
-          <p class="text-base max-w-xs">
+          <p class="max-w-xs text-base">
             By creating an account, you agree to our
             <span class="text-[#393C3E] underline">Terms of use</span> and
             <span class="text-[#393C3E] underline"> Privacy Policy</span>
           </p>
-          <div class="flex justify-center mt-5 mb-14">
-            <button
-              class="bg-[#1E76E8] rounded-lg h-12 w-44 text-white"
-             >
+          <div class="mb-14 mt-5 flex justify-center">
+            <button class="h-12 w-44 rounded-lg bg-[#645BBB] text-white">
               Create an account
             </button>
           </div>
@@ -65,7 +64,6 @@
 </template>
 
 <script lang="ts" setup>
-
 // const first_name = ref("");
 // const last_name = ref("");
 // const email = ref("");
@@ -106,9 +104,6 @@
 //     );
 //   }
 // };
-
 </script>
 
-<style>
-
-</style>
+<style></style>

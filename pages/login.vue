@@ -1,43 +1,42 @@
 <template>
- <div class="flex justify-center items-center h-screen bg-[#D1E3FA]">
-    <div class="h-auto w-[539px] bg-white rounded-2xl text-[#393C3E]">
+  <div class="flex h-screen items-center justify-center bg-[#EAE4F6]">
+    <div class="h-auto w-[539px] rounded-2xl bg-white text-[#393C3E]">
       <div class="mx-8">
         <div class="mt-20 text-center">
           <p class="text-4xl font-normal">Login</p>
           <p class="text-base">
             Don’t have an account?
-            <a class="text-[#1E76E8] hover:cursor-pointer" href="/signup">
+            <a class="text-[#645BBB] hover:cursor-pointer" href="/signup">
               Sign up</a
             >
           </p>
         </div>
-        <div class="grid mt-10 space-y-6 text-[#7C7C7C]">
+        <div class="mt-10 grid space-y-6 text-[#7C7C7C]">
           <div>
             <p class="mb-2">Email address</p>
             <input
-              class="w-full h-[46px] rounded-md border-[1px] border-[#CFCFCF] px-4"
+              class="h-[46px] w-full rounded-md border-[1px] border-[#CFCFCF] px-4"
               id="name"
-             />
+            />
           </div>
           <div>
             <p class="mb-2">Password</p>
             <input
-              class="w-full h-[46px] rounded-md border-[1px] border-[#CFCFCF] px-4"
+              class="h-[46px] w-full rounded-md border-[1px] border-[#CFCFCF] px-4"
               id="name"
-             />
+            />
           </div>
         </div>
         <div class="flex justify-end">
           <a
-            class="mb-5 text-sm text-[#1E76E8] underline hover:cursor-pointer"
-            href="/resetpassword">
+            class="mb-5 text-sm text-[#645BBB] underline hover:cursor-pointer"
+            href="/resetpassword"
+          >
             Forget your password
           </a>
         </div>
-        <div class="flex justify-center mt-5 mb-20">
-          <button
-            class="bg-[#1E76E8] rounded-lg h-12 w-44 text-white"
-           >
+        <div class="mb-20 mt-5 flex justify-center">
+          <button class="h-12 w-44 rounded-lg bg-[#645BBB] text-white">
             Login
           </button>
         </div>
@@ -65,6 +64,4 @@
 // };
 </script>
 
-<style>
-
-</style>
+<style></style>
