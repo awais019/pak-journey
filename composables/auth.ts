@@ -41,3 +41,22 @@
 
 //   return { signIn, signUp };
 // };
+
+export const useAuth = () => {
+  const login = async (email: String, password: String) => {
+    try {
+      const response = await useFetchWrapper("/auth/login", {
+        method: "POST",
+        body: {
+          email,
+          password,
+        },
+      });
+      return response;
+    } catch (error) {
+      return error;
+    }
+  };
+
+  return { login };
+};
