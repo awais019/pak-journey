@@ -8,4 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    public: {
+      BASE_URL: process.env.NUXT_BACKEND_URL,
+    },
+  },
 });
