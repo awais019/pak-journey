@@ -13,6 +13,7 @@ export default {
     extend: {
       container: {
         center: true,
+        padding: '4rem',
         //  max-width: 1440px
       },
     },
