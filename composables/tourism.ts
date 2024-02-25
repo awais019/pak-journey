@@ -1,4 +1,4 @@
-import type { TouristSpot } from "~/types/tourism";
+import type { SingleSpot, TouristSpot } from "~/types/tourism";
 
 export const useTourism = () => {
   const { BASE_URL } = useRuntimeConfig().public;
@@ -11,5 +11,11 @@ export const useTourism = () => {
     });
   }
 
-  return { getAllTouristSpots };
+  async function getSpot(id: string) {
+    return useFetch<{ data: SingleSpot }>(`/tourism/spot/${id}`, {
+      baseURL: BASE_URL,
+    });
+  }
+
+  return { getAllTouristSpots, getSpot };
 };

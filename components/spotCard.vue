@@ -1,13 +1,15 @@
 <script setup lang="ts">
   import type { TouristSpot } from "~/types/tourism";
 
-  defineProps<{
+  const props = defineProps<{
     spot: TouristSpot;
   }>();
+
+  const url = computed(() => "/tourism/" + props.spot.id);
 </script>
 
 <template>
-  <nuxt-link class="group" to="/">
+  <nuxt-link class="group" :to="url">
     <div
       class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg sm:aspect-h-3 sm:aspect-w-2"
     >
