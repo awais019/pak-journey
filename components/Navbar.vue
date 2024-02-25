@@ -14,7 +14,7 @@
             alt="Flowbite Logo"
           />
           <span class="self-center whitespace-nowrap text-2xl font-semibold"
-            >Dev Dreams</span
+            >Pak Journey</span
           >
         </a>
         <button
@@ -46,12 +46,12 @@
             class="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 rtl:space-x-reverse dark:border-gray-700"
           >
             <li>
-              <a
-                href="#"
-                class="block rounded bg-[#645BBB] px-3 py-2 text-white md:bg-transparent md:p-0 md:text-[#645BBB] md:dark:text-[#756adc]"
+              <nuxt-link
+                to="/"
+                class="block rounded text-gray-900"
                 aria-current="page"
-                >Home</a
-              >
+                >Home
+              </nuxt-link>
             </li>
             <li>
               <a
@@ -68,11 +68,7 @@
               >
             </li>
             <li>
-              <a
-                href="#"
-                class="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-[#645BBB] dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-[#645BBB]"
-                >Pricing</a
-              >
+              <nuxt-link to="/tourism">Tourism</nuxt-link>
             </li>
             <li>
               <a

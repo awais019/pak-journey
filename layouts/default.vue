@@ -1,11 +1,9 @@
 <template>
   <div>
-    <NavBar />
+    <Navbar />
     <slot />
   </div>
 </template>
 
-<script setup>
-import NavBar from "../components/NavBar.vue";
-</script>
+<script setup></script>
 <style lang="postcss" scoped></style>
