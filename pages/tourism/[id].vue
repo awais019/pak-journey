@@ -27,7 +27,7 @@
       </div>
       <h2 class="sr-only">Images</h2>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-3 gap-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div v-for="media in data.data.media">
           <img
             v-if="media.type == 'IMAGE'"
@@ -41,6 +41,9 @@
           </video>
         </div>
       </div>
+    </div>
+    <div class="my-12">
+      <Map :location="data.data.location" />
     </div>
   </div>
 </template>
