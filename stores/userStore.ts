@@ -21,5 +21,20 @@ export const useUserStore = defineStore("user", () => {
     // data.value
   }
 
-  return { user, authToken, isLoggedIn, logout, login };
+  async function register(formData: User) {
+    const response = await useAuth().register(
+      formData.firstName,
+      formData.lastName,
+      formData.email,
+      formData.password,
+      new Date(formData.dob),
+      formData.gender,
+    );
+    if (response.data.value) {
+      console.log("Register success");
+    } else {
+      console.log("Register register");
+    }
+  }
+  return { user, authToken, isLoggedIn, logout, login, register };
 });

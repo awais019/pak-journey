@@ -57,6 +57,30 @@ export const useAuth = () => {
       return error;
     }
   };
-
-  return { login };
+  const register = async (
+    firstName: String,
+    lastName: String,
+    email: String,
+    password: String,
+    dob: String,
+    gender: String,
+  ) => {
+    try {
+      const response = await useFetchWrapper("/auth/register", {
+        method: "POST",
+        body: {
+          firstName,
+          lastName,
+          email,
+          password,
+          dob,
+          gender,
+        },
+      });
+      return response;
+    } catch (error) {
+      return error;
+    }
+  };
+  return { login, register };
 };
